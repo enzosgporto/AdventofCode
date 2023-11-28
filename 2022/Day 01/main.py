@@ -1,4 +1,6 @@
-with open('input.txt') as f:
+#part one
+
+with open('2022/Day 01/maininput.txt') as f:
     contents = f.read()
 
     fileList = contents.split("\n\n")
@@ -15,3 +17,5 @@ with open('input.txt') as f:
             sumOfElements = a
 
     print(sumOfElements)
+
+#part two
