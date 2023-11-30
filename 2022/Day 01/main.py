@@ -1,6 +1,6 @@
 #part one
 
-with open('2022/Day 01/day1part1') as f: #opens text file with the variable f
+with open('2022/Day 01/day1input.txt') as f: #opens text file with the variable f
     contents = f.read() #assigns content 
 
     a = 0
@@ -19,7 +19,7 @@ with open('2022/Day 01/day1part1') as f: #opens text file with the variable f
 
 #part two
 
-with open('2022/Day 01/maininput.txt') as f: #opens text file with the variable f
+with open('2022/Day 01/day1input.txt') as f: #opens text file with the variable f
     contents = f.read() #assigns content 
 
     elf1 = 0
